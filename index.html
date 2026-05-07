@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govind Parsad | Cloud & DevOps Engineer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollIndicator"></div>
+    </div>
+
+    <!-- Background Orbs -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-content container">
+            <a href="#" class="logo">GP.<span>Cloud</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-sm">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content animate-on-scroll">
+                <p class="greeting">Hello World, I am</p>
+                <h1 class="glitch" data-text="Govind Parsad">Govind Parsad</h1>
+                <h2 class="role-text"><span id="typing-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="hero-desc">Building scalable, automated, and highly available cloud systems.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text glass-card animate-on-scroll delay-1">
+                    <h3 class="about-role">Cloud Computing <span class="text-gradient">Enthusiast</span></h3>
+                    <p>I am intensely focused on designing <span class="text-gradient">scalable, secure, and reliable</span> cloud-based solutions that power modern applications.</p>
+                    <p>Experienced with AWS services natively and currently serving as a <strong class="text-gradient">Cloud Computing Intern at Coder Roots</strong>. I am continuously learning Infrastructure as Code using Terraform and container orchestration with Kubernetes.</p>
+                    <p>Passionate about building efficient cloud systems, implementing robust CI/CD automation, and improving vast infrastructure performance through modern cloud practices.</p>
+                </div>
+                <div class="about-stats animate-on-scroll delay-2">
+                    <div class="stat-card glass-card">
+                        <i class="fab fa-aws stat-icon"></i>
+                        <h3>AWS</h3>
+                        <p>Cloud Architecture</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-server stat-icon"></i>
+                        <h3>DevOps</h3>
+                        <p>CI/CD & Automation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="exp-section container">
+            <h2 class="section-title animate-on-scroll">Experience</h2>
+            <div class="timeline animate-on-scroll delay-1">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Current</div>
+                    <div class="timeline-content">
+                        <h3>Cloud Computing Intern</h3>
+                        <h4><i class="fas fa-building"></i> Coder Roots</h4>
+                        <p>Focusing on AWS infrastructure, learning various DevOps tools, managing deployments, and practicing automation basics to build scalable environments.</p>
+                        <div class="tech-tags">
+                            <span>AWS</span>
+                            <span>DevOps</span>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section container">
+            <h2 class="section-title animate-on-scroll">Skills Arsenal</h2>
+            <div class="skills-cards-container">
+                <!-- Cloud -->
+                <div class="skill-box glass-card animate-on-scroll delay-1">
+                    <div class="skill-box-header">
+                        <i class="fas fa-cloud skill-box-icon"></i>
+                        <h3>Cloud</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
+                    </div>
+                </div>
+                <!-- DevOps -->
+                <div class="skill-box glass-card animate-on-scroll delay-2">
+                    <div class="skill-box-header">
+                        <i class="fas fa-infinity skill-box-icon"></i>
+                        <h3>DevOps & CI/CD</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-linux"></i> Linux Basics</span>
+                    </div>
+                </div>
+                <!-- Infrastructure & Containers -->
+                <div class="skill-box glass-card animate-on-scroll delay-3">
+                    <div class="skill-box-header">
+                        <i class="fas fa-cubes skill-box-icon"></i>
+                        <h3>Infra & Containers</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag learning">Terraform (Learning)</span>
+                        <span class="skill-tag learning">Kubernetes (Learning)</span>
+                    </div>
+                </div>
+                <!-- Frontend -->
+                <div class="skill-box glass-card animate-on-scroll delay-4">
+                    <div class="skill-box-header">
+                        <i class="fas fa-laptop-code skill-box-icon"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML/CSS</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section container">
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card animate-on-scroll delay-1">
+                    <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>E-Commerce Website</h3>
+                    <p>Built a responsive e-commerce platform with product listing, cart functionality, and dynamic UI using JavaScript. Focused on performance optimization, user experience, and modular design.</p>
+                    <div class="tech-tags">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>Modular</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live View</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card animate-on-scroll delay-2">
+                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI Nerd</h3>
+                    <p>Developed an AI-based platform featuring chatbot interaction and AI image generation. Designed a modern UI with real-time response simulation and intuitive user experience.</p>
+                    <div class="tech-tags">
+                        <span>JS (ES6+)</span>
+                        <span>API Integration</span>
+                        <span>Modern UI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live View</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card animate-on-scroll delay-3">
+                    <div class="project-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>CultFit Clone</h3>
+                    <p>Created a clone of a fitness platform with modern layout, smooth navigation, and responsive design. Focused on replicating real-world UI/UX patterns.</p>
+                    <div class="tech-tags">
+                        <span>HTML/CSS</span>
+                        <span>UI/UX</span>
+                        <span>Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live View</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card animate-on-scroll delay-4">
+                    <div class="project-icon"><i class="fab fa-aws"></i></div>
+                    <h3>AWS Dynamic Hosting</h3>
+                    <p>Deployed a dynamic website using AWS EC2 and S3. Configured server environment, handled deployment pipelines, and ensured scalability and high availability using cloud practices.</p>
+                    <div class="tech-tags">
+                        <span>AWS EC2</span>
+                        <span>AWS S3</span>
+                        <span>Linux</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Architecture</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <div class="contact-wrapper animate-on-scroll delay-1">
+                <div class="contact-info glass-card centered-card">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently looking for new opportunities in Cloud & DevOps engineering. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <div class="contact-details centered-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>9015204139</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span id="email-text">govind04139@gmail.com</span>
+                            <button id="copy-btn" class="copy-btn" onclick="copyEmail()" title="Copy Email">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="social-links centered-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Govind Parsad. Crafted with <i class="fas fa-heart" style="color: #ef4444;"></i> & Cloud Magic.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="./main.js"></script>
+</body>
+</html>
